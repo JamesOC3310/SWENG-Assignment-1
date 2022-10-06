@@ -3,6 +3,7 @@ import java.util.Scanner;
 import java.lang.Math;
 import java.util.Arrays;
 import java.util.Stack;
+import java.io.*;
 
 public class CalculatorApp {
 
@@ -11,29 +12,23 @@ public class CalculatorApp {
         char[] tokens = expression.toCharArray();
 
         // Stack for numbers: 'values'
-        Stack<Integer> values = new
-                Stack<Integer>();
+        Stack<Integer> values = new Stack<Integer>();
 
         // Stack for Operators: 'ops'
-        Stack<Character> ops = new
-                Stack<Character>();
+        Stack<Character> ops = new Stack<Character>();
 
         for (int i = 0; i < tokens.length; i++) {
 
-            // Current token is a
-            // whitespace, skip it
+            // Current token is a whitespace, skip it
             if (tokens[i] == ' ')
                 continue;
 
-            // Current token is a number,
-            // push it to stack for numbers
+            // Current token is a number, push it to stack of numbers
             if (tokens[i] >= '0' &&
                     tokens[i] <= '9') {
-                StringBuffer sbuf = new
-                        StringBuffer();
+                StringBuffer sbuf = new StringBuffer();
 
-                // There may be more than one
-                // digits in number
+                // For multi-digit numbers in number
                 while (i < tokens.length &&
                         tokens[i] >= '0' &&
                         tokens[i] <= '9')
@@ -107,7 +102,7 @@ public class CalculatorApp {
     public static boolean hasPrecedence(
             char op1, char op2) {
 
-        if ((op1 == '*' || op1 == '/') &&
+        if ((op1 == '*' ) &&
                 (op2 == '+' || op2 == '-'))
             return false;
         else
@@ -126,7 +121,6 @@ public class CalculatorApp {
                 return a - b;
             case '*':
                 return a * b;
-
         }
         return 0;
     }
@@ -137,7 +131,31 @@ public class CalculatorApp {
 
         String userCalculations = userInput.nextLine();
 
-        System.out.println(CalculatorApp.evaluate(userCalculations));
+        //error checking with inputted string
+        int countErrors = 0;
+        for(int i = 0; i < userCalculations.length(); i++)
+        {
+            if(Character.isWhitespace(userCalculations.charAt(i)) ||
+                    Character.isLetter(userCalculations.charAt(i)) ||
+                    userCalculations.contains("/"))
+            {
+                countErrors++;
+            }
+        }
+
+        if (countErrors == 0)
+        {
+            System.out.println(CalculatorApp.evaluate(userCalculations));
+        }
+
+        else
+        {
+            System.out.print("This is an invalid string.\nPlease only enter valid" +
+                            " strings that contain integers and operands +, - or *.\n" +
+                            "For example, 432+89*3-56");
+        }
+
+
 
 
 
