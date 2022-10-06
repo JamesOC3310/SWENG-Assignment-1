@@ -26,8 +26,4 @@ public class CalculatorAppTest {
        assertEquals(4, calculatorTest.applyOp('-', 4, 8));
        assertEquals(50000, calculatorTest.applyOp('*', 500, 100));
     }
-
-    public void testingMain(){
-        assertEquals(, calculatorTest);
-    }
 }
