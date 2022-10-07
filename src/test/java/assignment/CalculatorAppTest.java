@@ -1,3 +1,4 @@
+package assignment;
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,8 +23,8 @@ public class CalculatorAppTest {
 
     @Test
     public void testingApplyOp(){
-       assertEquals(3, calculatorTest.applyOp('+', 1, 2));
-       assertEquals(4, calculatorTest.applyOp('-', 4, 8));
-       assertEquals(50000, calculatorTest.applyOp('*', 500, 100));
+        assertEquals(3, calculatorTest.applyOp('+', 1, 2));
+        assertEquals(4, calculatorTest.applyOp('-', 4, 8));
+        assertEquals(50000, calculatorTest.applyOp('*', 500, 100));
     }
 }

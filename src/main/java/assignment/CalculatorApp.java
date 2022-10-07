@@ -1,9 +1,7 @@
-import java.lang.reflect.Array;
+package assignment;
+
 import java.util.Scanner;
-import java.lang.Math;
-import java.util.Arrays;
 import java.util.Stack;
-import java.io.*;
 
 public class CalculatorApp {
 
@@ -151,8 +149,8 @@ public class CalculatorApp {
         else
         {
             System.out.print("This is an invalid string.\nPlease only enter valid" +
-                            " strings that contain integers and operands +, - or *.\n" +
-                            "For example, 432+89*3-56");
+                    " strings that contain integers and operands +, - or *.\n" +
+                    "For example, 432+89*3-56");
         }
     }
 }
