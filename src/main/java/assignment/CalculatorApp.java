@@ -1,9 +1,7 @@
-import java.lang.reflect.Array;
+package assignment;
+
 import java.util.Scanner;
-import java.lang.Math;
-import java.util.Arrays;
 import java.util.Stack;
-import java.io.*;
 
 public class CalculatorApp {
 
@@ -151,65 +149,9 @@ public class CalculatorApp {
         else
         {
             System.out.print("This is an invalid string.\nPlease only enter valid" +
-                            " strings that contain integers and operands +, - or *.\n" +
-                            "For example, 432+89*3-56");
+                    " strings that contain integers and operands +, - or *.\n" +
+                    "For example, 432+89*3-56");
         }
-
-
-
-
-
-//        // The tokens that make up the input
-//        String[] tokens = userCalculations.split("");
-//
-//        String[] operators = userCalculations.split("[0-9]");
-//        String[] operands = userCalculations.split("[*+-]");
-//        System.out.print((Arrays.toString(operands) + "and" + Arrays.toString(operators)));
-//
-//        int aggregate = 0;
-//        String operator = "";
-//
-//        for (int i = 0; i <= tokens.length -1; i++) {
-//
-//            switch (tokens[1].charAt(0)) {
-//
-//                // case to add two numbers
-//                case '*':
-//
-//                    aggregate *= (Integer.parseInt(tokens[0])) * (Integer.parseInt(tokens[2]));
-//
-//                    break;
-//
-//                // case to subtract two numbers
-//                case '-':
-//                    aggregate -= Integer.parseInt(tokens[0])
-//                            - Integer.parseInt(tokens[2]);
-//
-//                    break;
-//
-//                // case to multiply two numbers
-//                case '+':
-//                    aggregate += Integer.parseInt(tokens[0])
-//                            + Integer.parseInt(tokens[2]);
-//
-//                    break;
-//
-//                default:
-//
-//                    System.out.println("You enter wrong input");
-//
-//                    break;
-//            }
-//        }
-//
-//
-//            System.out.println("The final result:");
-//
-//            System.out.println();
-//
-//            // print the final result
-//            System.out.print(aggregate);
-
     }
 }
 
