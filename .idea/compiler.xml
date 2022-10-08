@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SWENG-Assignment-1" />
+        <module name="sweng-as-1-java11" />
+        <module name="SWENG-AS-1" />
+        <module name="GitHubActionsQuickStart" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="15">
-      <module name="SWENG-Assignment-1" target="15" />
+    <bytecodeTargetLevel>
+      <module name="SWENG-AS-1" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

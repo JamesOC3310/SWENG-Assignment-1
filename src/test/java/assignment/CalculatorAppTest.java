@@ -1,5 +1,5 @@
 package assignment;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
