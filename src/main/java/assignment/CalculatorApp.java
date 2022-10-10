@@ -128,7 +128,6 @@ public class CalculatorApp {
 
         if (countErrors == 0)
         {
-            System.out.print("This is a valid string. Result: ");
             System.out.println(CalculatorApp.evaluate(userCalculations));
         }
 

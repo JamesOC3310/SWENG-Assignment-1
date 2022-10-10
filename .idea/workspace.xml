@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1a8c76aa-be88-4bf2-98f6-4ac968442ea4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment/CalculatorApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment/CalculatorApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/assignment/CalculatorAppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/assignment/CalculatorAppTest5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +35,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Documents/College/sweng/SWENG-Assignment-1&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "C:/Documents/College/sweng/SWENG-Assignment-1",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.CalculatorAppTest.testingHasPrecedence">
+}]]></component>
+  <component name="RunManager" selected="JUnit.CalculatorAppTest (1)">
     <configuration name="CalculatorApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="assignment.CalculatorApp" />
       <module name="SWENG-AS-1" />
@@ -77,22 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorAppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SWENG-AS-1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org" />
-      <option name="MAIN_CLASS_NAME" value="org.CalculatorAppTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CalculatorAppTest.testingHasPrecedence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorAppTest5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SWENG-AS-1" />
       <extension name="coverage">
         <pattern>
@@ -101,14 +87,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="assignment" />
-      <option name="MAIN_CLASS_NAME" value="assignment.CalculatorAppTest" />
+      <option name="MAIN_CLASS_NAME" value="assignment.CalculatorAppTest5" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorAppTest5.testingHasPrecedence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SWENG-AS-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="assignment" />
+      <option name="MAIN_CLASS_NAME" value="assignment.CalculatorAppTest5" />
       <option name="METHOD_NAME" value="testingHasPrecedence" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorAppTest.testingRegularExpression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculatorAppTest5.testingRegularExpression" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SWENG-AS-1" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +118,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="assignment" />
-      <option name="MAIN_CLASS_NAME" value="assignment.CalculatorAppTest" />
+      <option name="MAIN_CLASS_NAME" value="assignment.CalculatorAppTest5" />
       <option name="METHOD_NAME" value="testingRegularExpression" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -126,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CalculatorAppTest.testingHasPrecedence" />
-        <item itemvalue="JUnit.CalculatorAppTest.testingRegularExpression" />
         <item itemvalue="JUnit.CalculatorAppTest (1)" />
+        <item itemvalue="JUnit.CalculatorAppTest5" />
+        <item itemvalue="JUnit.CalculatorAppTest5.testingHasPrecedence" />
+        <item itemvalue="JUnit.CalculatorAppTest5.testingRegularExpression" />
         <item itemvalue="Application.CalculatorApp" />
-        <item itemvalue="JUnit.CalculatorAppTest" />
       </list>
     </recent_temporary>
   </component>
