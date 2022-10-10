@@ -29,6 +29,12 @@
       <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.8.1</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -39,7 +45,7 @@
         <version>2.21.0</version>
         <configuration>
           <includes>
-            CalculatorAppTest.java
+            assignment.CalculatorAppTest.CalculatorAppTest.java
           </includes>
         </configuration>
         <dependencies>
