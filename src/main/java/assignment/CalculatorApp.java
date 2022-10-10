@@ -5,7 +5,6 @@ import java.util.Stack;
 
 public class CalculatorApp {
 
-
     public static int evaluate(String userInputCalculation) {
         char[] tokens = userInputCalculation.toCharArray();
 

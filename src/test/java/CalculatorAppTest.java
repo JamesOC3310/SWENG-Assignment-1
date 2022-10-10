@@ -1,5 +1,6 @@
-package assignment;
 
+
+import assignment.CalculatorApp;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
